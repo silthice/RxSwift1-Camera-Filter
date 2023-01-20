@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2554ADFEFDD5C99E894E117C /* Pods_RxSwift1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D1BF7B4BBD39475E0A18E3 /* Pods_RxSwift1.framework */; };
 		80CE159E297A976C00893A2C /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE159D297A976C00893A2C /* PhotoCollectionViewController.swift */; };
+		80CE15A1297A9E3300893A2C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE15A0297A9E3300893A2C /* PhotoCollectionViewCell.swift */; };
 		80CFF0A6297A8893007D069D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFF0A5297A8893007D069D /* AppDelegate.swift */; };
 		80CFF0A8297A8893007D069D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFF0A7297A8893007D069D /* SceneDelegate.swift */; };
 		80CFF0AA297A8893007D069D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFF0A9297A8893007D069D /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 		402292C99EE51BF3778D9221 /* Pods-RxSwift1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift1.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift1/Pods-RxSwift1.debug.xcconfig"; sourceTree = "<group>"; };
 		57D1BF7B4BBD39475E0A18E3 /* Pods_RxSwift1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CE159D297A976C00893A2C /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		80CE15A0297A9E3300893A2C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		80CFF0A2297A8893007D069D /* RxSwift1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CFF0A5297A8893007D069D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CFF0A7297A8893007D069D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,12 +80,13 @@
 				80CFF0B9297A8B71007D069D /* RxSwiftPlayground.playground */,
 				80CFF0A5297A8893007D069D /* AppDelegate.swift */,
 				80CFF0A7297A8893007D069D /* SceneDelegate.swift */,
-				80CE159D297A976C00893A2C /* PhotoCollectionViewController.swift */,
 				80CFF0A9297A8893007D069D /* ViewController.swift */,
+				80CE159D297A976C00893A2C /* PhotoCollectionViewController.swift */,
 				80CFF0AB297A8893007D069D /* Main.storyboard */,
 				80CFF0AE297A8894007D069D /* Assets.xcassets */,
 				80CFF0B0297A8894007D069D /* LaunchScreen.storyboard */,
 				80CFF0B3297A8894007D069D /* Info.plist */,
+				80CE15A0297A9E3300893A2C /* PhotoCollectionViewCell.swift */,
 			);
 			path = RxSwift1;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CFF0AA297A8893007D069D /* ViewController.swift in Sources */,
+				80CE15A1297A9E3300893A2C /* PhotoCollectionViewCell.swift in Sources */,
 				80CFF0A6297A8893007D069D /* AppDelegate.swift in Sources */,
 				80CFF0A8297A8893007D069D /* SceneDelegate.swift in Sources */,
 				80CE159E297A976C00893A2C /* PhotoCollectionViewController.swift in Sources */,
