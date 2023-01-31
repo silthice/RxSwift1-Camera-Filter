@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oSU-vf-6YC">
-                                <rect key="frame" x="0.0" y="103" width="393" height="639"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oSU-vf-6YC">
+                                <rect key="frame" x="0.0" y="103" width="393" height="617.66666666666663"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ag-XW-zdt">
                                 <rect key="frame" x="141" y="762" width="110" height="35"/>
@@ -28,6 +28,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Apply Filter">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NjF-Sc-5jo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,7 +42,7 @@
                             <constraint firstItem="oSU-vf-6YC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HiC-Nh-f6t"/>
                             <constraint firstItem="3Ag-XW-zdt" firstAttribute="centerX" secondItem="oSU-vf-6YC" secondAttribute="centerX" id="P34-PP-9Fm"/>
                             <constraint firstItem="3Ag-XW-zdt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="Wws-2M-VfB"/>
-                            <constraint firstItem="oSU-vf-6YC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.75" id="Ygy-Rj-7WI"/>
+                            <constraint firstItem="oSU-vf-6YC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.725" id="Ygy-Rj-7WI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Camera Filter" id="aeW-91-Jbi">
@@ -49,6 +52,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="filterButton" destination="3Ag-XW-zdt" id="258-GT-03w"/>
+                        <outlet property="photoImageView" destination="oSU-vf-6YC" id="f20-Fc-5c3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
